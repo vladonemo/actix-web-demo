@@ -1,3 +1,6 @@
+#[macro_use]
+extern crate diesel;
+
 use actix_web::{App, get, HttpResponse, HttpServer, post, Responder, web};
 use actix_web::dev::Body;
 use simd_json_derive::Serialize;
@@ -44,6 +47,7 @@ async fn main() -> std::io::Result<()> {
             .service(hello)
             .service(echo)
             .service(json)
+            .service(diesel_demo::get_posts)
             .route("/hey", web::get().to(manual_hello))
     })
         .bind("0.0.0.0:8080")?
