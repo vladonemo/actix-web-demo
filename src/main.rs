@@ -48,6 +48,7 @@ async fn main() -> std::io::Result<()> {
             .service(echo)
             .service(json)
             .service(diesel_demo::get_posts)
+            .service(diesel_demo::add_posts)
             .route("/hey", web::get().to(manual_hello))
     })
         .bind("0.0.0.0:8080")?

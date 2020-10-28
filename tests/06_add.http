@@ -1,0 +1,7 @@
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "title": "Post 1",
+  "body": "Body of the first post"
+}
