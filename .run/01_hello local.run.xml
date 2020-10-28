@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="01_hello local" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" path="$PROJECT_DIR$/tests/01_hello.http" runType="Run single request">
+  <configuration default="false" name="01_hello local" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" environment="local" path="$PROJECT_DIR$/tests/01_hello.http" runType="Run single request">
     <method v="2" />
   </configuration>
 </component>

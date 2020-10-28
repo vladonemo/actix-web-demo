@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="02_echo docker" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" environment="docker" path="$PROJECT_DIR$/tests/02_echo.http" runType="Run single request">
+    <method v="2" />
+  </configuration>
+</component>
