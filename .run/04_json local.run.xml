@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="04_json local" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" path="$PROJECT_DIR$/tests/04_json.http" runType="Run single request">
+    <method v="2" />
+  </configuration>
+</component>
