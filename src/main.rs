@@ -5,6 +5,7 @@ use simd_json_derive::Serialize;
 use crate::utils::to_body;
 
 mod utils;
+mod diesel_demo;
 
 #[get("/")]
 async fn hello() -> impl Responder {
