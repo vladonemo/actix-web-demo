@@ -22,7 +22,7 @@
             </DockerPortBindingImpl>
           </list>
         </option>
-        <option name="commandLineOptions" value="" />
+        <option name="commandLineOptions" value="--network bridge-network" />
       </settings>
     </deployment>
     <method v="2" />

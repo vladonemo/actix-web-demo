@@ -1,7 +1,9 @@
-tests
-target
 .idea
+.run
+migrations
+target
 tests
 Dockerfile
 .dockerignore
 .gitignore
+.env
