@@ -1,2 +1,2 @@
-GET http://localhost:8080/hey
+GET http://localhost:{{port}}/hey
 Accept: application/json

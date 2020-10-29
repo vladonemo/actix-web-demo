@@ -1,4 +1,4 @@
-POST http://localhost:8080/echo
+POST http://localhost:{{port}}/echo
 Accept: application/json
 
 Ping!
